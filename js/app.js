@@ -4,7 +4,7 @@ import {EPH} from './data/eph.js';
 import {renderCalendar,renderKanban,pendingHTML,featuredHTML} from './views.js';
 const $=s=>document.querySelector(s);
 const today=()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`};
-const GITHUB='https://github.com/'; // <- pon aquí tu repositorio
+const GITHUB='https://github.com/ElfaOscura/CronArt'; // <- pon aquí tu repositorio
 const NET={x:['X / Twitter',u=>`https://x.com/${u}`,'twitter'],ig:['Instagram',u=>`https://instagram.com/${u}`,'instagram'],fb:['Facebook',u=>`https://facebook.com/${u}`,'facebook'],tt:['TikTok',u=>`https://tiktok.com/@${u}`,'music-2'],pin:['Pinterest',u=>`https://pinterest.com/${u}`,'pin']};
 let deferred=null,lastFocus=null;
 
