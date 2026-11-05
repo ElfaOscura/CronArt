@@ -45,6 +45,14 @@ Cada dibujo guarda: título, fecha, tipo, estado, estrella, casilla de OC, hasta
 
 ## 🚀 Cómo usarlo
 
+Entra al enlace del proyecto y empieza a usarla, sin instalar ni crear cuenta:
+
+<div align="center">
+
+### 👉 [**https://elfaoscura.github.io/CronArt/**](https://elfaoscura.github.io/CronArt/)
+
+</div>
+
 ### Primeros pasos
 
 1. Al abrir por primera vez, escribe tu **nombre de artista** y tus usuarios de redes.
@@ -135,7 +143,7 @@ Las librerías externas se cargan por CDN y se guardan en caché tras la primera
 | Colores y tema | Variables `:root` y `[data-theme=dark]` en `css/styles.css` |
 | Colores de cada tipo de nota | Clases `.pi-*` y `.k-*` en `css/styles.css` |
 | Textos e idiomas | `js/i18n.js` |
-| URL al compartir el enlace | Metas `og:` y `twitter:` en `index.html` (reemplaza `TU-USUARIO`) |
+| URL al compartir el enlace | Metas `og:` y `twitter:` en `index.html` |
 | Enlace de GitHub del menú | Constante `GITHUB` en `js/app.js` |
 | Redes sociales soportadas | Objeto `NET` en `js/app.js` |
 
@@ -161,7 +169,7 @@ Si CronArt te ayuda a organizar tu arte, puedes invitarme un café:
 
 **CronArt** is a free, offline-capable planner for illustrators: a monthly calendar with sticky-note style drawings, a Kanban production board, built-in observances, up to 5 featured notes, filters and search, light/dark themes and an ES/EN interface. It is installable as a PWA.
 
-- **Run it:** serve the folder over HTTP (`npx serve .`); `file://` won't work.
+- **Use it:** just open the project link: [elfaoscura.github.io/CronArt](https://elfaoscura.github.io/CronArt/).
 - **Data:** stored only in your browser's `localStorage` (key `cronart:v1`). Export a JSON backup regularly from the ☰ menu.
 - **Support:** buy me a coffee at [ko-fi.com/naidi_art](https://ko-fi.com/naidi_art) ☕
 
