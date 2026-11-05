@@ -45,10 +45,6 @@ Cada dibujo guarda: título, fecha, tipo, estado, estrella, casilla de OC, hasta
 
 ## 🚀 Cómo usarlo
 
-
-Abre la dirección que te indique (por ejemplo `http://localhost:8000`).
-
-
 ### Primeros pasos
 
 1. Al abrir por primera vez, escribe tu **nombre de artista** y tus usuarios de redes.
@@ -96,7 +92,11 @@ cronart/
 ├── sw.js                   # Service worker (caché y modo sin conexión)
 ├── README.md
 ├── icons/
-│   └── icon.svg            # Icono de la app
+│   ├── icon.svg            # Icono de la app (favicon)
+│   ├── icon-192.png        # Iconos PNG para la PWA
+│   ├── icon-512.png
+│   ├── apple-touch-icon.png
+│   └── og-image.png        # Imagen al compartir el enlace (1200×630)
 ├── css/
 │   └── styles.css          # Temas, post-its, calendario, tablero y animaciones
 └── js/
@@ -135,8 +135,11 @@ Las librerías externas se cargan por CDN y se guardan en caché tras la primera
 | Colores y tema | Variables `:root` y `[data-theme=dark]` en `css/styles.css` |
 | Colores de cada tipo de nota | Clases `.pi-*` y `.k-*` en `css/styles.css` |
 | Textos e idiomas | `js/i18n.js` |
+| URL al compartir el enlace | Metas `og:` y `twitter:` en `index.html` (reemplaza `TU-USUARIO`) |
 | Enlace de GitHub del menú | Constante `GITHUB` en `js/app.js` |
 | Redes sociales soportadas | Objeto `NET` en `js/app.js` |
+
+Si cambias archivos que el service worker guarda en caché, sube el número de versión (`const V='cronart-v2'`) en `sw.js` para que los usuarios reciban la actualización.
 
 ---
 
