@@ -1,11 +1,10 @@
-const V = 'cronart-v3';
-
+const V = 'cronart-v5';
 const A = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './style.css',
-  './main.js',
+  './assets/style.css',
+  './assets/main.js',
   './icons/icon.svg',
   './icons/icon-192.png',
   './icons/icon-512.png',
