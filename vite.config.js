@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-    base: '/CronArt/',
+  base: '/CronArt/',
   plugins: [tailwindcss()],
   build: {
     outDir: 'dist',
@@ -11,11 +11,11 @@ export default defineConfig({
         main: './index.html',
       },
       output: {
-        entryFileNames: 'main.js',
-        chunkFileNames: '[name].js',
+        entryFileNames: 'assets/main.js',
+        chunkFileNames: 'assets/[name].js',
         assetFileNames: (assetInfo) => {
           if (assetInfo.name && assetInfo.name.endsWith('.css')) {
-            return 'style.css';
+            return 'assets/style.css';
           }
           return 'assets/[name][extname]';
         },
