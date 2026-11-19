@@ -1,0 +1,16 @@
+# Dependencias y compilación
+node_modules/
+dist/
+.vite/
+
+# Archivos de entorno y registros
+.env
+.env.local
+*.log
+npm-debug.log*
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
