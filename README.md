@@ -5,12 +5,7 @@
 **El planificador visual para ilustradores.**  
 Calendario con post-its, tablero de producción arrastrable, listado por lote y efemérides, todo en tu navegador y sin cuentas.  
 
-[![PWA](https://img.shields.io/badge/PWA-instalable-3341c4?logo=pwa&logoColor=white)](#-instalar-como-app)  
-[![Vite](https://img.shields.io/badge/Vite-empaquetado-646cff?logo=vite&logoColor=white)](#-tecnologías)  
-[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4-38bdf8?logo=tailwindcss&logoColor=white)](#-tecnologías)  
-[![ES | EN](https://img.shields.io/badge/idioma-ES%20%7C%20EN-5b2fc9)](#-características)  
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Inv%C3%ADtame%20un%20caf%C3%A9-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/naidi_art)  
-
+[![PWA](https://img.shields.io/badge/PWA-instalable-3341c4?logo=pwa&logoColor=white)](#-instalar-como-app)[![Vite](https://img.shields.io/badge/Vite-empaquetado-646cff?logo=vite&logoColor=white)](#-tecnologías)[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4-38bdf8?logo=tailwindcss&logoColor=white)](#-tecnologías)[![ES | EN](https://img.shields.io/badge/idioma-ES%20%7C%20EN-5b2fc9)](#-características)[![Ko-fi](https://img.shields.io/badge/Ko--fi-Inv%C3%ADtame%20un%20caf%C3%A9-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/naidi_art)
 <br />
 
 | 📅 Vista de Calendario | 🗂️ Tablero de Producción |
@@ -106,12 +101,16 @@ En Chrome o Edge aparece **Instalar app** en el menú ☰ (o el icono de instala
 
 | Archivo / Carpeta | Para qué sirve |
 | --- | --- |
-| `index.html` | Entrada principal de la aplicación y estructura base de modales y vistas |
-| `src/` | Código fuente de vistas (calendario, tablero Kanban, listado por lote), estado y lógica |
+| `css/` | Hojas de estilo del proyecto |
 | `public/` | Recursos estáticos (`screen-calendario.jpg`, `screen-tablero.jpg`, iconos y vistas previas) |
-| `package.json` | Dependencias y scripts de desarrollo/compilación (`dev`, `build`, `preview`) |
-
-> *Ajusta o amplía los archivos de esta tabla según la estructura exacta de tu repositorio.*
+| `src/` | Código fuente de la aplicación (calendario, tablero Kanban, listado, lógica y datos) |
+| `.gitignore` | Archivos y carpetas excluidos del control de versiones |
+| `README.md` | Documentación principal del repositorio |
+| `index.html` | Plantilla HTML base de la aplicación |
+| `package-lock.json` | Registro exacto del árbol de dependencias instaladas |
+| `package.json` | Dependencias y scripts de Vite (`dev`, `build`, `preview`) |
+| `tailwind.config.js` | Configuración de Tailwind CSS |
+| `vite.config.js` | Configuración de Vite y del despliegue |
 
 ---
 
