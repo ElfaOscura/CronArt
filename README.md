@@ -5,7 +5,7 @@
 **El planificador visual para ilustradores.**  
 Calendario con post-its, tablero de producción arrastrable, listado por lote y efemérides, todo en tu navegador y sin cuentas.  
 
-[![PWA](https://img.shields.io/badge/PWA-instalable-3341c4?logo=pwa&logoColor=white)](#-instalar-como-app)[![Vite](https://img.shields.io/badge/Vite-empaquetado-646cff?logo=vite&logoColor=white)](#-tecnologías)[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4-38bdf8?logo=tailwindcss&logoColor=white)](#-tecnologías)[![ES | EN](https://img.shields.io/badge/idioma-ES%20%7C%20EN-5b2fc9)](#-características)[![Ko-fi](https://img.shields.io/badge/Ko--fi-Inv%C3%ADtame%20un%20caf%C3%A9-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/naidi_art)
+[![PWA](https://img.shields.io/badge/PWA-instalable-3341c4?logo=pwa&logoColor=white)](#-instalar-como-app) [![Vite](https://img.shields.io/badge/Vite-empaquetado-646cff?logo=vite&logoColor=white)](#-tecnologías) [![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4-38bdf8?logo=tailwindcss&logoColor=white)](#-tecnologías) [![ES | EN](https://img.shields.io/badge/idioma-ES%20%7C%20EN-5b2fc9)](#-características) [![Ko-fi](https://img.shields.io/badge/Ko--fi-Inv%C3%ADtame%20un%20caf%C3%A9-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/naidi_art)
 <br />
 
 | 📅 Vista de Calendario | 🗂️ Tablero de Producción |
